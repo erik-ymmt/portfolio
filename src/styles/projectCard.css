@@ -1,0 +1,84 @@
+#projects {
+  background-color: var(--dark-grey);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 5%;
+  color: white;
+  width: 100vw;
+}
+
+#projects > h1 {
+  color: var(--light-blue);
+  margin: 4rem;
+  font-size: 3rem;
+  font-style: italic;
+}
+
+.cardsGrid {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.cardContainer {
+  font-weight: 200;
+  width: 45%;
+  margin-bottom: 3%;
+}
+
+.cardContainer > h1 {
+  font-style: italic;
+  font-weight: 200;
+}
+
+.imgContainer {
+  border-radius: 12px;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 12px;
+}
+
+.cardContainer img {
+  width: 100%;
+  opacity: 50%;
+}
+
+.cardContainer img:hover {
+  cursor: pointer;
+  opacity: 80%;
+}
+
+.projectDescription {
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.projectInfos {
+  display: flex;
+  justify-content: space-between;
+}
+
+.techTag {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  margin-right: 12px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 1.2em;
+}
+
+.linksContainer {
+  display: flex;
+  gap: 12px;
+  font-size: 1.75em;
+}
+
+.linksContainer a:hover {
+  transform: scale(1.1);
+}

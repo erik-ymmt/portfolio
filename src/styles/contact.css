@@ -1,0 +1,40 @@
+#contact {
+  background-color: var(--graphite);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 5%;
+  color: white;
+  min-height: 90vh;
+  width: 100vw;
+}
+
+#contact > h1 {
+  margin: 4rem 0;
+  font-size: 3rem;
+  font-style: italic;
+  color: var(--light-blue);
+}
+
+#contact a {
+  color: white;
+}
+
+.contactIcon {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-weight: 600;
+  font-size: 2em;
+  text-decoration: none;
+  margin-bottom: 0.5em;
+}
+
+.email {
+  font-weight: 400;
+  font-style: oblique;
+}
+
+.contactIcon:visited {
+  color: white;
+}
