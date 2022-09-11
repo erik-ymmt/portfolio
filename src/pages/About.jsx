@@ -34,24 +34,25 @@ function About() {
       );
 
       new LeaderLine(
-        document.querySelector("#javascript"),
+        document.querySelector(".skillsStart"),
         document.querySelector(".circle1"),
         { color: "white", size: 1, endPlug: "behind" }
       );
 
       new LeaderLine(
-        document.querySelector("#github"),
+        document.querySelector(".skillsEnd"),
         document.querySelector(".circle2"),
         { color: "white", size: 1, endPlug: "behind" }
       );
     }
-  }
+  };
 
   const verifyWidth = () => {
     if (window.innerWidth < 1000) {
       document.querySelectorAll(".leader-line").forEach((x) => x.remove());
     } else {
-      (document.querySelectorAll(".leader-line").length === 0) && createLeaderLines();
+      document.querySelectorAll(".leader-line").length === 0 &&
+        createLeaderLines();
     }
   };
 
@@ -83,11 +84,11 @@ function About() {
       </a>
       <div className="info info4">
         <h2>Skills</h2>
+        <div className="skillsStart" />
         <div className="skills">
           <img
             alt="skill JS"
             src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=white&color=grey"
-            id="javascript"
           />
           <img
             alt="skill React"
@@ -112,9 +113,9 @@ function About() {
           <img
             alt="skill Github"
             src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white&color=grey"
-            id="github"
           />
         </div>
+        <div className="skillsEnd" />
       </div>
     </div>
   );
