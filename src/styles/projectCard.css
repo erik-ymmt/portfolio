@@ -64,10 +64,15 @@
   justify-content: space-between;
 }
 
+.techsContainer {
+  display:flex;
+  flex-wrap: wrap;
+  gap: 12px
+}
+
 .techTag {
   background-color: rgba(0, 0, 0, 0.5);
   color: white;
-  margin-right: 12px;
   padding: 4px 8px;
   border-radius: 4px;
   font-size: 1.2em;
@@ -81,4 +86,19 @@
 
 .linksContainer a:hover {
   transform: scale(1.1);
+}
+
+@media screen and (max-width: 1200px) {
+  #projects > h1 {
+    font-size: 2rem;
+  }
+  .cardContainer > h1 {
+    font-size: 1.75rem;
+  }
+  .techsContainer {
+    gap: 4px
+  }
+  .techTag {
+    font-size: 1em;
+  }
 }
