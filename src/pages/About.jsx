@@ -115,8 +115,8 @@ function About() {
             src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white&color=grey"
           />
         </div>
-        <div className="skillsEnd" />
       </div>
+      <div className="info skillsEnd" />
     </div>
   );
 }
