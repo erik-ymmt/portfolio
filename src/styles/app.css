@@ -79,3 +79,23 @@ footer {
     transform: scale(1);
   }
 }
+
+@keyframes fadeIn2 {
+  0% {
+    opacity: 0%;
+    transform: scale(0.9);
+  }
+  85% {
+    transform: scale(1.01);
+  }
+  90% {
+    opacity: 100%;
+    transform: scale(1);
+  }
+  95% {
+    transform: scale(1.01);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

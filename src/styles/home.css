@@ -18,20 +18,19 @@
   font-size: 190px;
   line-height: 150px;
   color: white;
-  animation: 1s ease-in 0s 1 fadeIn;
+  animation: 1s ease-in-out 0s 1 fadeIn;
 }
 
 #lastName {
   font-size: 66px;
   line-height: 55px;
   color: var(--light-grey);
-  animation: 1s ease-in 0s 1 fadeIn;
-
+  animation: 1s ease-in-out 0s 1 fadeIn;
 }
 
 #title {
   font-size: 70px;
   line-height: 60px;
   color: var(--light-blue);
-  animation: 2s ease-in 0s 1 fadeIn;
+  animation: 2s ease-in-out 0s 1 fadeIn2;
 }

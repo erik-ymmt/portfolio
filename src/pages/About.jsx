@@ -9,13 +9,13 @@ function About() {
   useEffect(() => {
     new LeaderLine(
       document.querySelector(".info1"),
-      document.querySelector(".profileImg"),
+      document.querySelector(".circle1"),
       { color: "white", size: 1, endPlug: "behind" }
     );
 
     new LeaderLine(
       document.querySelector(".info2"),
-      document.querySelector(".profileImg"),
+      document.querySelector(".circle2"),
       { color: "white", size: 1, endPlug: "behind" }
     );
 
@@ -33,7 +33,7 @@ function About() {
 
     new LeaderLine(
       document.querySelectorAll(".skills img")[6],
-      document.querySelector(".profileImg"),
+      document.querySelector(".circle2"),
       { color: "white", size: 1, endPlug: "behind" }
     );
 
