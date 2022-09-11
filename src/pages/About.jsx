@@ -7,39 +7,55 @@ import { useEffect } from "react";
 
 function About() {
   useEffect(() => {
-    new LeaderLine(
-      document.querySelector(".info1"),
-      document.querySelector(".circle1"),
-      { color: "white", size: 1, endPlug: "behind" }
-    );
-
-    new LeaderLine(
-      document.querySelector(".info2"),
-      document.querySelector(".circle2"),
-      { color: "white", size: 1, endPlug: "behind" }
-    );
-
-    new LeaderLine(
-      document.querySelector(".info3"),
-      document.querySelector(".profileImg"),
-      { color: "white", size: 1, endPlug: "behind" }
-    );
-
-    new LeaderLine(
-      document.querySelector(".skills img"),
-      document.querySelector(".circle1"),
-      { color: "white", size: 1, endPlug: "behind" }
-    );
-
-    new LeaderLine(
-      document.querySelectorAll(".skills img")[6],
-      document.querySelector(".circle2"),
-      { color: "white", size: 1, endPlug: "behind" }
-    );
+    createLeaderLines();
 
     return () =>
       document.querySelectorAll(".leader-line").forEach((x) => x.remove());
   }, []);
+
+  const createLeaderLines = () => {
+    if (window.innerWidth > 900) {
+      new LeaderLine(
+        document.querySelector(".info1"),
+        document.querySelector(".circle1"),
+        { color: "white", size: 1, endPlug: "behind" }
+      );
+
+      new LeaderLine(
+        document.querySelector(".info2"),
+        document.querySelector(".circle2"),
+        { color: "white", size: 1, endPlug: "behind" }
+      );
+
+      new LeaderLine(
+        document.querySelector(".info3"),
+        document.querySelector(".profileImg"),
+        { color: "white", size: 1, endPlug: "behind" }
+      );
+
+      new LeaderLine(
+        document.querySelector(".skills img"),
+        document.querySelector(".circle1"),
+        { color: "white", size: 1, endPlug: "behind" }
+      );
+
+      new LeaderLine(
+        document.querySelector("#github"),
+        document.querySelector(".circle2"),
+        { color: "white", size: 1, endPlug: "behind" }
+      );
+    }
+  }
+
+  const verifyWidth = () => {
+    if (window.innerWidth < 900) {
+      document.querySelectorAll(".leader-line").forEach((x) => x.remove());
+    } else {
+      (document.querySelectorAll(".leader-line").length === 0) && createLeaderLines();
+    }
+  };
+
+  window.onresize = verifyWidth;
 
   return (
     <div id="about">
@@ -95,6 +111,7 @@ function About() {
           <img
             alt="skill Github"
             src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white&color=grey"
+            id="github"
           />
         </div>
       </div>

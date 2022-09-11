@@ -1,5 +1,5 @@
 import PropTypes from "prop-types"
-import "../styles/projectCard.css";
+import "../styles/projects.css";
 import { FiExternalLink } from "react-icons/fi";
 import { BsGithub } from "react-icons/bs";
 
