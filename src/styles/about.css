@@ -139,3 +139,54 @@
     opacity: 30%;
   }
 }
+
+@media screen and (max-width: 1200px) {
+  #about {
+    height: 80vh;
+  }
+  .profileImg {
+    height: 33vw;
+  }
+  .circle {
+    position: absolute;
+    margin-top: 17vh;
+    height: 33.5vw;
+    width: 33.5vw;
+  }
+  .circle2 {
+    margin-top: 20vh;
+  }
+  .info1 {
+    margin-top: 15vw;
+    margin-right: 70vw;
+  }
+  .info2 {
+    margin-top: 43vw;
+    margin-right: 68vw;
+  }
+  .info3 {
+    margin-top: 31vw;
+    margin-right: 70vw;
+  }
+  .info4 {
+    margin-top: 14vw;
+    margin-left: 70vw;
+    max-width: 30vw;
+  }
+  .skills {
+    gap: 0.8em;
+    margin-top: 0.8em;
+  }
+  .skills img {
+    height: 40px;
+  }
+  #about h1 {
+    font-size: 2rem;
+  }
+  #about h2 {
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (max-width: 750px) {
+}

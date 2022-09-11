@@ -89,7 +89,7 @@
 
 @media screen and (max-width: 500px) {
   #navMenuContainer {
-    width: 80%;
+    width: 90%;
   }
   #navMenu {
     gap: 1em;
@@ -99,7 +99,16 @@
     font-size: 1.5rem;
     position: fixed;
     bottom: 11%;
-    right: 10%;
+    right: 7%;
   }
 }
 
+@media screen and (max-width: 300px) {
+  #navMenuContainer {
+    padding: 8px;
+  }
+  #navMenu {
+    gap: 0.6em;
+    font-size: 0.9em;
+  }
+}
