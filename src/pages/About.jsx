@@ -29,7 +29,7 @@ function About() {
 
       new LeaderLine(
         document.querySelector(".info3"),
-        document.querySelector(".profileImg"),
+        document.querySelector(".circle3"),
         { color: "white", size: 1, endPlug: "behind" }
       );
 
@@ -63,6 +63,7 @@ function About() {
       <h1>- About me -</h1>
       <div className="circle circle1" />
       <div className="circle circle2" />
+      <div className="circle circle3" />
       <img className="profileImg" src={profilePicture} alt="erik-profile" />
       <h2 className="info info1">Former architect & urbanist</h2>
       <h2 className="info info2">
