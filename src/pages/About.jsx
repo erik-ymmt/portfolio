@@ -27,7 +27,7 @@ function About() {
 
     new LeaderLine(
       document.querySelector(".skills img"),
-      document.querySelector(".profileImg"),
+      document.querySelector(".circle1"),
       { color: "white", size: 1, endPlug: "behind" }
     );
 

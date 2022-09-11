@@ -60,3 +60,46 @@
   display: block;
   height: 5px;
 }
+
+@media screen and (max-width: 1400px) {
+  #navMenuContainer {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  #navMenuContainer {
+    width: 50%;
+  }
+  #navMenu {
+    gap: 1.5em;
+    font-size: 1.5em;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  #navMenuContainer {
+    width: 70%;
+  }
+  #navMenu {
+    gap: 1.5em;
+    font-size: 1.25em;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #navMenuContainer {
+    width: 80%;
+  }
+  #navMenu {
+    gap: 1em;
+    font-size: 1em;
+  }
+  .topBtn {
+    font-size: 1.5rem;
+    position: fixed;
+    bottom: 11%;
+    right: 10%;
+  }
+}
+
