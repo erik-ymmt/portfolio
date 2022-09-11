@@ -14,7 +14,7 @@ function About() {
   }, []);
 
   const createLeaderLines = () => {
-    if (window.innerWidth > 900) {
+    if (window.innerWidth > 1000) {
       new LeaderLine(
         document.querySelector(".info1"),
         document.querySelector(".circle1"),
@@ -34,7 +34,7 @@ function About() {
       );
 
       new LeaderLine(
-        document.querySelector(".skills img"),
+        document.querySelector("#javascript"),
         document.querySelector(".circle1"),
         { color: "white", size: 1, endPlug: "behind" }
       );
@@ -48,7 +48,7 @@ function About() {
   }
 
   const verifyWidth = () => {
-    if (window.innerWidth < 900) {
+    if (window.innerWidth < 1000) {
       document.querySelectorAll(".leader-line").forEach((x) => x.remove());
     } else {
       (document.querySelectorAll(".leader-line").length === 0) && createLeaderLines();
@@ -87,6 +87,7 @@ function About() {
           <img
             alt="skill JS"
             src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=white&color=grey"
+            id="javascript"
           />
           <img
             alt="skill React"

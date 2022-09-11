@@ -1,10 +1,20 @@
-import solarImg from "../img/p_solar-system-min.png";
-import tryunfoImg from "../img/p_tryunfo-min.png";
+import portfoliImg from "../img/p_portfolio.png";
 import walletImg from "../img/p_trybewallet-min.png";
 import tunesImg from "../img/p_trybetunes-min.png";
+import tryunfoImg from "../img/p_tryunfo-min.png";
+import solarImg from "../img/p_solar-system-min.png";
 import shoppingImg from "../img/p_shopping-cart-min.png";
 
 const projects = [
+  {
+    name: "Portfolio (this page)",
+    description:
+      "Potfolio with my projects!.",
+    img: portfoliImg,
+    techs: ["React", "Javascript"],
+    deployLink: "https://erikyamamoto.netlify.app/",
+    repositoryLink: "https://github.com/erik-ymmt/portfolio",
+  },
   {
     name: "Trybewallet",
     description:
