@@ -65,9 +65,10 @@
 }
 
 .techsContainer {
-  display:flex;
+  display: flex;
   flex-wrap: wrap;
-  gap: 12px
+  gap: 12px;
+  padding-right: 0.5rem;
 }
 
 .techTag {
@@ -96,9 +97,26 @@
     font-size: 1.75rem;
   }
   .techsContainer {
-    gap: 4px
+    gap: 4px;
   }
   .techTag {
     font-size: 1em;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  #projects {
+    gap: 1rem;
+    padding-bottom: 2rem;
+  }
+  #projects > h1 {
+    margin-top: 2rem;
+    margin-bottom: 0;
+  }
+  .cardsGrid{
+    gap: 2rem;
+  }
+  .cardContainer {
+    width: 95%;
   }
 }

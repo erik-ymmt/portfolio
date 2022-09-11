@@ -38,3 +38,23 @@
 .contactIcon:visited {
   color: white;
 }
+
+@media screen and (max-width: 900px) {
+  #contact {
+    gap: 1rem;
+    min-height: 50vh;
+
+  }
+  #contact > h1 {
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 0;
+  }
+  .contactIcon {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-weight: 600;
+    font-size: 1.5em;
+  }
+}

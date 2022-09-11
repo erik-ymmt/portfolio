@@ -77,13 +77,14 @@
   }
 }
 
-@media screen and (max-width: 840px) {
+@media screen and (max-width: 900px) {
   #navMenuContainer {
     width: 70%;
   }
   #navMenu {
     gap: 1.5em;
     font-size: 1.25em;
+    font-weight: 600;
   }
 }
 
