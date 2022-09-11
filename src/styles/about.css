@@ -18,7 +18,7 @@
 
 .profileImg {
   border-radius: 100%;
-  height: 360px;
+  height: 400px;
   z-index: 1;
 }
 
@@ -26,8 +26,8 @@
   position: absolute;
   margin-top: 170px;
   border-radius: 100%;
-  height: 360px;
-  width: 360px;
+  height: 400px;
+  width: 400px;
   background-color: white;
   opacity: 20%;
 }
@@ -188,5 +188,26 @@
   }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 900px) {
+  #about {
+    gap:1.5rem;
+    height: auto;
+    padding-bottom: 2rem;
+  }
+  #about > h1 {
+    margin-top: 2rem;
+    margin-bottom: 0;
+  }
+  .circle {
+    margin-top: 100px;
+    height: 33vw;
+    width: 33vw;
+  }
+  .info {
+    position: static;
+    margin: 0;
+  }
+  .skills {
+    justify-content: center;
+  }
 }
