@@ -19,5 +19,123 @@
 .profileImg {
   border-radius: 100%;
   height: 50%;
-  animation: 1s ease-in 0s 1 fadeIn;
+  z-index: 1;
+}
+
+.circle {
+  position: absolute;
+  margin-top: 170px;
+  border-radius: 100%;
+  height: 50vh;
+  width: 50vh;
+  background-color: white;
+  opacity: 20%;
+}
+
+.circle1 {
+  animation: 8s ease-in-out infinite circleMotion1;
+}
+
+.circle2 {
+  margin-top: 210px;
+  animation: 10s ease-in-out infinite circleMotion2;
+  background-color: var(--light-blue);
+}
+
+.info {
+  position: absolute;
+  text-align: center;
+  width: 200px;
+  font-style: oblique;
+}
+
+.info1 {
+  margin-top: 200px;
+  margin-right: 850px;
+}
+
+.info2 {
+  margin-top: 550px;
+  margin-right: 800px;
+}
+
+.info3 {
+  margin-top: 400px;
+  margin-right: 850px;
+  width: 150px;
+  padding: 0.75em;
+  border-radius: 4px;
+  color: white;
+  background-color: grey;
+  box-shadow: -5px -5px var(--light-blue-transp);
+  text-decoration: none;
+}
+
+.info3 a,
+.info3 a:visited {
+  color: var(--dark-grey);
+}
+
+.info4 {
+  margin-top: 175px;
+  margin-left: 850px;
+  max-width: 250px;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 1em;
+  margin-top: 1em;
+}
+
+.skills img {
+  height: 50px;
+}
+
+@keyframes circleMotion1 {
+  0% {
+    opacity: 20%;
+  }
+  25% {
+    transform: translateY(10px);
+    transform: translatex(10px);
+    opacity: 30%;
+  }
+  50% {
+    transform: scale(1.05);
+    transform: translatex(-10px);
+    transform: translateY(-10px);
+    opacity: 20%;
+    background-color: var(--light-blue);
+  }
+  75% {
+    opacity: 30%;
+    transform: translateY(10px);
+    transform: translatex(10px);
+  }
+}
+
+@keyframes circleMotion2 {
+  0% {
+    opacity: 20%;
+  }
+  25% {
+    transform: translateY(-10px);
+    transform: translateX(-10px);
+    opacity: 30%;
+  }
+  50% {
+    transform: scale(1.1);
+    transform: translateY(-10px);
+    transform: translateX(-10px);
+    opacity: 20%;
+    background-color: white;
+  }
+  75% {
+    transform: translateX(10px);
+    transform: translateY(10px);
+    opacity: 30%;
+  }
 }

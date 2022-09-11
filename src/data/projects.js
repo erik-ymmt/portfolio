@@ -6,23 +6,6 @@ import shoppingImg from "../img/p_shopping-cart-min.png";
 
 const projects = [
   {
-    name: "Solar System",
-    description:
-      "My first React application! A Solar System with missions related to the planets.",
-    img: solarImg,
-    techs: ["React", "Javascript", "CSS", "HTML"],
-    deployLink: "https://solarsystem-erik.netlify.app/",
-    repositoryLink: "https://github.com/erik-ymmt/solar-system-trybe-project",
-  },
-  {
-    name: "Tryunfo",
-    description: " This project creates a custom deck to a trunfo game!",
-    img: tryunfoImg,
-    techs: ["React", "Javascript", "CSS", "HTML"],
-    deployLink: "https://tryunfo-erik.netlify.app/",
-    repositoryLink: "https://github.com/erik-ymmt/tryunfo-trybe-project",
-  },
-  {
     name: "Trybewallet",
     description:
       "Expenses tracker application. Exchange values are calculated based on an API.",
@@ -41,9 +24,26 @@ const projects = [
     repositoryLink: "https://github.com/erik-ymmt/trybewallet-trybe-project",
   },
   {
+    name: "Tryunfo",
+    description: " This project creates a custom deck to a trunfo game!",
+    img: tryunfoImg,
+    techs: ["React", "Javascript", "CSS", "HTML"],
+    deployLink: "https://tryunfo-erik.netlify.app/",
+    repositoryLink: "https://github.com/erik-ymmt/tryunfo-trybe-project",
+  },
+  {
+    name: "Solar System",
+    description:
+      "My first React application! A Solar System with missions related to the planets.",
+    img: solarImg,
+    techs: ["React", "Javascript", "CSS", "HTML"],
+    deployLink: "https://solarsystem-erik.netlify.app/",
+    repositoryLink: "https://github.com/erik-ymmt/solar-system-trybe-project",
+  },
+  {
     name: "Shopping Cart",
     description:
-      "This project is an exercise where I develop a simple shopping cart. The idea is to fetch data from Mercado Libre's API to show results from a search for the key word 'computer'.",
+      "The aplication fetches data related to 'computers' from Mercado Libre's API.",
     img: shoppingImg,
     techs: ["Javascript", "Jest"],
     deployLink: "https://shoppingcart-erik.netlify.app/",
