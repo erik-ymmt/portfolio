@@ -9,7 +9,7 @@ const projects = [
   {
     name: "Portfolio (this page)",
     description:
-      "Potfolio with my projects!.",
+      "Portfolio with my projects!",
     img: portfoliImg,
     techs: ["React", "Javascript"],
     deployLink: "https://erikyamamoto.netlify.app/",
