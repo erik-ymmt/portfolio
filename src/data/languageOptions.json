@@ -1,8 +1,32 @@
 {
   "en": {
-    "aboutMe": "About Me"
+    "language": "language",
+    "portfolio": "PORTFOLIO",
+    "aboutMe": "About Me",
+    "projects": "Projects",
+    "contact": "Contact",
+    "description": "Former architect & urbanist",
+    "resume": "Resume",
+    "loves": "Loves",
+    "nature": "nature",
+    "music": "music",
+    "sports": "sports",
+    "skills": "Skills",
+    "developed": "developed by"
   },
   "ptBR": {
-    "aboutMe": "Sobre mim"
+    "language": "língua",
+    "portfolio": "PORTFÓLIO",
+    "aboutMe": "Sobre mim",
+    "projects": "Projetos",
+    "contact": "Contato",
+    "description": "Trabalhava como arquiteto e urbanista",
+    "resume": "Currículo",
+    "loves": "Adora",
+    "nature": "natureza",
+    "music": "música",
+    "sports": "esportes",
+    "skills": "Habilidades",
+    "developed": "desenvolvido por"
   }
 }

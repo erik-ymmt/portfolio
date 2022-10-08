@@ -16,10 +16,10 @@ function Menu() {
             {text.aboutMe}
           </HashLink>
           <HashLink smooth to="#projects">
-            Projects
+            {text.projects}
           </HashLink>
           <HashLink smooth to="#contact">
-            Contact
+            {text.contact}
           </HashLink>
         </div>
       </nav>

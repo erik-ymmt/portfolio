@@ -20,6 +20,7 @@ function LanguageSwitch() {
         <span>{"en \u00A0"}</span>
         <span>pt</span>
       </div>
+      {/* <p className="langOptions">lang.</p> */}
     </div>
   );
 }

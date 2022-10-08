@@ -1,7 +1,12 @@
+import { useContext } from "react";
+import languageContext from "../context/languageContext";
+
 function Footer() {
+  const { text } = useContext(languageContext);
+
   return (
     <footer>
-      developed by Erik Yamamoto
+      {text.developed} Erik Yamamoto
     </footer>
   );
 }

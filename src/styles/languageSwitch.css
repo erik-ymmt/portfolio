@@ -42,4 +42,5 @@
 .langOptions{
   font-size: .9rem;
   animation: 1s ease-in 0s 1 fadeIn;
+  text-align: center;
 }
