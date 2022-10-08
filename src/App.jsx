@@ -5,6 +5,7 @@ import Projects from "./pages/Projects";
 import Footer from "./components/Footer";
 import "./styles/app.css";
 import Contact from "./pages/Contact";
+import LanguageSwitch from "./components/LanguageSwitch";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Projects />
       <Contact />
       <Menu />
+      <LanguageSwitch />
       <Footer />
     </div>
   );
