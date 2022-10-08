@@ -1,11 +1,15 @@
 import "../styles/contact.css";
 import { BsGithub, BsLinkedin } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
+import { useContext } from "react";
+import languageContext from "../context/languageContext";
 
 function Contact() {
+  const { text } = useContext(languageContext);
+
   return (
     <div id="contact">
-      <h1>- Contact -</h1>
+      <h1>- {text.contact} -</h1>
       <div className="contactOptions">
         <span className="contactIcon email">
           <MdEmail color="white" />

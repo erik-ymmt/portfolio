@@ -2,20 +2,24 @@ import React from "react";
 import TopButton from "./TopButton";
 import { HashLink } from "react-router-hash-link";
 import "../styles/menu.css";
+import { useContext } from "react";
+import languageContext from "../context/languageContext";
 
 function Menu() {
+  const { text } = useContext(languageContext);
+
   return (
     <>
       <nav id="navMenuContainer">
         <div id="navMenu">
           <HashLink smooth to="#about">
-            About Me
+            {text.aboutMe}
           </HashLink>
           <HashLink smooth to="#projects">
-            Projects
+            {text.projects}
           </HashLink>
           <HashLink smooth to="#contact">
-            Contact
+            {text.contact}
           </HashLink>
         </div>
       </nav>

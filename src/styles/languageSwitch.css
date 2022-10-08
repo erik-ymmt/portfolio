@@ -1,0 +1,46 @@
+.langSwitchContainer {
+  flex-direction: column;
+  position: fixed;
+  top: 16px;
+  right: 32px;
+  z-index: 2;
+}
+
+.langSwitch {
+  all: unset;
+  display: flex;
+  position: fixed;
+  top: 14px;
+  right: 27px;
+  z-index: 2;
+  width: 44px;
+  height: 22px;
+  cursor: pointer;
+}
+
+.langSwitchThumb {
+  display: 'block';
+  position: fixed;
+  top: 15px;
+  right: 54px;
+  z-index: 3;
+  width: 22px;
+  height: 22px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  transition: ease-in-out 100ms;
+  transform: translateX(2px);
+  will-change: auto;
+  cursor: pointer;
+}
+
+.langSwitchThumb[data-state="checked"]{
+  transform: translateX(25px);
+  border: white;
+}
+
+.langOptions{
+  font-size: .9rem;
+  animation: 1s ease-in 0s 1 fadeIn;
+  text-align: center;
+}

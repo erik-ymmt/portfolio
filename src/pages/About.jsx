@@ -3,9 +3,12 @@ import LeaderLine from "react-leader-line";
 import profilePicture from "../img/erik.jpg";
 import { FaLeaf, FaMusic } from "react-icons/fa";
 import { BiFootball } from "react-icons/bi";
-import { useEffect } from "react";
+import { useContext, useEffect } from "react";
+import languageContext from "../context/languageContext";
 
 function About() {
+  const { text } = useContext(languageContext);
+
   useEffect(() => {
     createLeaderLines();
 
@@ -60,20 +63,20 @@ function About() {
 
   return (
     <div id="about">
-      <h1>- About me -</h1>
+      <h1>- {text.aboutMe} -</h1>
       <div className="circle circle1" />
       <div className="circle circle2" />
       <div className="circle circle3" />
       <img className="profileImg" src={profilePicture} alt="erik-profile" />
-      <h2 className="info info1">Former architect & urbanist</h2>
+      <h2 className="info info1">{text.description}</h2>
       <h2 className="info info2">
-        Loves:
+        {text.loves}:
         <br />
-        <FaLeaf /> nature,
+        <FaLeaf /> {text.nature},
         <br />
-        <FaMusic /> music,
+        <FaMusic /> {text.music},
         <br />
-        <BiFootball /> sports
+        <BiFootball /> {text.sports}
       </h2>
       <a
         className="info info3"
@@ -81,10 +84,10 @@ function About() {
         target="_blank"
         rel="noreferrer"
       >
-        <h2>Resume</h2>
+        <h2>{text.resume}</h2>
       </a>
       <div className="info info4">
-        <h2>Skills</h2>
+        <h2>{text.skills}</h2>
         <div className="skillsStart" />
         <div className="skills">
           <img
