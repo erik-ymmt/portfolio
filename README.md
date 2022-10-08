@@ -14,7 +14,7 @@ All technologies applied by me on this project:
 - HTML;
 
 ## How to run the project:
-- Access [https://erikyamamoto.netlify.app/)](https://erikyamamoto.netlify.app/))
+- Access [https://erikyamamoto.netlify.app/)](https://erikyamamoto.netlify.app/)
 - Or git clone the repository;
 - Navigate to the folder and install the dependencies with `npm install`;
 - Done! Now you can start the application with `npm start`!
