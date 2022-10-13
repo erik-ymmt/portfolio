@@ -4,7 +4,8 @@
 [Deploy link](https://erikyamamoto.netlify.app/)
 
 ## About
-&nbsp;&nbsp; Web portfolio with my most recent projects!
+&nbsp;&nbsp; Web portfolio with my projects! (English version available - default)
+&nbsp;&nbsp; Portfólio com os meus projetos! (versão em português disponível - no canto superior direito)
 
 ## Technologies:
 All technologies applied by me on this project:
