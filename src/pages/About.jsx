@@ -1,10 +1,13 @@
 import "../styles/about.css";
+
+import { useContext, useEffect } from "react";
 import LeaderLine from "react-leader-line";
-import profilePicture from "../img/erik.jpg";
+import languageContext from "../context/languageContext";
+
 import { FaLeaf, FaMusic } from "react-icons/fa";
 import { BiFootball } from "react-icons/bi";
-import { useContext, useEffect } from "react";
-import languageContext from "../context/languageContext";
+import skills from "../data/skills";
+import profilePicture from "../img/erik.jpg";
 
 function About() {
   const { text } = useContext(languageContext);
@@ -80,7 +83,7 @@ function About() {
       </h2>
       <a
         className="info info3"
-        href="https://drive.google.com/file/d/1ZY5CUuA64LPIZnffW5iFoKdVTthBJ7Zt/view?usp=sharing"
+        href={text.resumeLink}
         target="_blank"
         rel="noreferrer"
       >
@@ -90,34 +93,13 @@ function About() {
         <h2>{text.skills}</h2>
         <div className="skillsStart" />
         <div className="skills">
-          <img
-            alt="skill JS"
-            src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=white&color=grey"
-          />
-          <img
-            alt="skill React"
-            src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=white&color=909090"
-          />
-          <img
-            alt="skill Redux"
-            src="https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white&color=grey"
-          />
-          <img
-            alt="skill HTML"
-            src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white&color=909090"
-          />
-          <img
-            alt="skill CSS"
-            src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white&color=grey"
-          />
-          <img
-            alt="skill GIT"
-            src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white&color=909090"
-          />
-          <img
-            alt="skill Github"
-            src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white&color=grey"
-          />
+            {
+              skills.map((e) => (
+                <div key={e.alt}>
+                  <img alt={e.alt} src={e.src} />
+                </div>
+              ))
+            }
         </div>
       </div>
       <div className="info skillsEnd" />
