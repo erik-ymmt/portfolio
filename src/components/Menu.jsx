@@ -12,10 +12,10 @@ function Menu() {
     <>
       <nav id="navMenuContainer">
         <div id="navMenu">
-          <HashLink smooth to="#about">
+          <HashLink smooth to="#about-title">
             {text.aboutMe}
           </HashLink>
-          <HashLink smooth to="#projects">
+          <HashLink smooth to="#projects-title">
             {text.projects}
           </HashLink>
           <HashLink smooth to="#contact">

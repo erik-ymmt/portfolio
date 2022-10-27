@@ -66,7 +66,7 @@ function About() {
 
   return (
     <div id="about">
-      <h1>- {text.aboutMe} -</h1>
+      <h1 id="about-title">- {text.aboutMe} -</h1>
       <div className="circle circle1" />
       <div className="circle circle2" />
       <div className="circle circle3" />

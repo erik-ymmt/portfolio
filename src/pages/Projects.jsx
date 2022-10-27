@@ -11,7 +11,7 @@ function Projects() {
 
   return (
     <div id="projects">
-      <h1>- {text.projects} -</h1>
+      <h1 id="projects-title">- {text.projects} -</h1>
       <div className="cardsGrid">
         {projects.map((project) => (
           <ProjectCard
