@@ -12,7 +12,8 @@
     "music": "music",
     "sports": "sports",
     "skills": "Skills",
-    "developed": "developed by"
+    "developed": "developed by",
+    "resumeLink": "https://bit.ly/erik-resume-en"
   },
   "ptBR": {
     "language": "língua",
@@ -27,6 +28,7 @@
     "music": "música",
     "sports": "esportes",
     "skills": "Habilidades",
-    "developed": "desenvolvido por"
+    "developed": "desenvolvido por",
+    "resumeLink": "https://bit.ly/erik-resume-pt-br"
   }
 }
