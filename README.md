@@ -10,9 +10,11 @@
 ## Technologies:
 All technologies applied by me on this project:
 - React
+- Context API;
 - Javascript;
 - CSS;
 - HTML;
+- Netlify deploy;
 
 ## How to run the project:
 - Access [https://erikyamamoto.netlify.app/](https://erikyamamoto.netlify.app/)
