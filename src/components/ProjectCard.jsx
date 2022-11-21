@@ -1,4 +1,4 @@
-import PropTypes from "prop-types"
+import PropTypes from "prop-types";
 import "../styles/projects.css";
 import { FiExternalLink } from "react-icons/fi";
 import { BsGithub } from "react-icons/bs";
@@ -32,9 +32,13 @@ function ProjectCard({
           <a href={repositoryLink} target="blank">
             <BsGithub color="white" />
           </a>
-          <a href={deployLink} target="blank">
-            <FiExternalLink color="white" />
-          </a>
+          {deployLink ? (
+            <a href={deployLink} target="blank">
+              <FiExternalLink color="white" />
+            </a>
+          ) : (
+            <></>
+          )}
         </div>
       </div>
     </div>
@@ -48,6 +52,6 @@ ProjectCard.propTypes = {
   name: PropTypes.string,
   repositoryLink: PropTypes.string,
   techs: PropTypes.array,
-}
+};
 
 export default ProjectCard;

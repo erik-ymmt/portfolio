@@ -10,9 +10,16 @@
 
 #projects > h1 {
   color: var(--light-blue);
-  margin: 4rem;
-  font-size: 3rem;
+  margin: 1rem;
+  font-size: 2rem;
   font-style: italic;
+}
+
+#projects > #projects-title {
+  margin-top: 2rem;
+  margin-bottom: 0rem;
+  color: white;
+  font-size: 3rem;
 }
 
 .cardsGrid {
@@ -76,7 +83,8 @@
   color: white;
   padding: 4px 8px;
   border-radius: 4px;
-  font-size: 1.2em;
+  font-size: 1em;
+  max-height: 1.75em;
 }
 
 .linksContainer {

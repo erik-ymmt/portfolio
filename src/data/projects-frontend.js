@@ -1,4 +1,4 @@
-import portfoliImg from "../img/p_portfolio.png";
+import portfoliImg from "../img/p_portfolio-min.png";
 import walletImg from "../img/p_trybewallet-min.png";
 import tunesImg from "../img/p_trybetunes-min.png";
 import tryunfoImg from "../img/p_tryunfo-min.png";
