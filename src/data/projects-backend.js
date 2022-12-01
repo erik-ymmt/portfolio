@@ -6,9 +6,9 @@ import rpgImg from "../img/p_be_rpg-min.png";
 
 const projectsBack = [
   {
-    nameEN: "Trybe Futebol Clube",
+    nameEN: "Trybe Football Club",
     descriptionEN: "RESTful API for a football tournament. *Frontend developed by Trybe.",
-    namePT: "Trybe Football Club",
+    namePT: "Trybe Futebol Clube",
     descriptionPT: "API RESTful para um torneio de futebol. *Frontend desenvolvido pela Trybe.",
     img: tfcImg,
     techs: ["Typescript", "Express", "Sequelize", "MySQL", "Docker", "Netlify", "Railway", "Mocha", "Chai"],
@@ -17,9 +17,9 @@ const projectsBack = [
   },
   {
     nameEN: "Blogs API",
-    descriptionEN: "RESTful API for a blog with CRUD operations. Documentation with Swagger. Deploy in an AWS EC2 instance",
+    descriptionEN: "RESTful API for a blog. Documentation with Swagger. Deploy in an AWS EC2 instance",
     namePT: "API de Blogs",
-    descriptionPT: "API RESTful para um blog com as operações CRUD. Documentação com Swagger. Deply em uma instância AWS EC2",
+    descriptionPT: "API RESTful para um blog. Documentação com Swagger. Deploy em uma instância AWS EC2",
     img: blogsImg,
     techs: ["NodeJS", "Express", "Sequelize", "MySQL", "Docker", "Swagger", "AWS EC2"],
     deployLink: "http://ec2-18-228-39-56.sa-east-1.compute.amazonaws.com:3000/documentation/",
