@@ -53,7 +53,7 @@ const projectsBack = [
     nameEN: "Trybers and Dragons RPG",
     descriptionEN:
       "Object-oriented programming project that simulates an RPG game.",
-    namePT: "Trybesmith API",
+    namePT: "Trybers e Dragões RPG",
     descriptionPT:
       "Projeto com Programação orientada a objetos que simula um jogo de RPG.",
     img: rpgImg,
