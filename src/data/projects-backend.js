@@ -17,12 +17,13 @@ const projectsBack = [
   },
   {
     nameEN: "Blogs API",
-    descriptionEN: "RESTful API for a blog. Documentation with Swagger. Deploy in an AWS EC2 instance",
+    descriptionEN: "RESTful API for a blog. Documentation with Swagger. Deploy in an AWS EC2 instance (service is temporarily down).",
     namePT: "API de Blogs",
-    descriptionPT: "API RESTful para um blog. Documentação com Swagger. Deploy em uma instância AWS EC2",
+    descriptionPT: "API RESTful para um blog. Documentação com Swagger. Deploy em uma instância AWS EC2 (o serviço está temporariamente fora do ar)",
     img: blogsImg,
     techs: ["NodeJS", "Express", "Sequelize", "MySQL", "Docker", "Swagger", "AWS EC2"],
-    deployLink: "http://ec2-18-228-39-56.sa-east-1.compute.amazonaws.com:3000/documentation/",
+    deployLink: "",
+    // deployLink: "http://ec2-18-228-39-56.sa-east-1.compute.amazonaws.com:3000/documentation/",
     repositoryLink: "https://github.com/erik-ymmt/blogs-api-trybe-project",
   },
   {
